@@ -35,7 +35,6 @@ class Ticket
   end
 end
 
-
 shinanjo = Gate.new(:shinanjo)
 chiryu = Gate.new(:chiryu)
 
