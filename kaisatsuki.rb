@@ -62,7 +62,7 @@ else
   puts "正しい数字を入力してください。"
   return
 end
-
+puts ""
 puts "どこの駅で降りますか？"
 print <<"EOS"
   1. 新安城
@@ -70,8 +70,7 @@ print <<"EOS"
   3. 刈谷
   数字で選択してください。
 EOS
-number_end = gets().chomp
-# puts x
+number_end = gets()
 if number_start == number_end
   puts "正しい駅を選択してください"
   return
