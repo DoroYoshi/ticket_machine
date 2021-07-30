@@ -48,7 +48,7 @@ print <<"EOS"
   数字で選択してください。
 EOS
 
-number_start = gets().chomp
+number_start = gets()
 if number_start.to_i == 1
   puts "新安城"
   shinanjo.enter(ticket)
